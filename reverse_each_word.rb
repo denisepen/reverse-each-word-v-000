@@ -8,3 +8,8 @@ def reverse_each_word(sentence)
   new_array.join (" ")
 
 end
+
+def reverse_each_word(sentence)
+  array = sentence.split
+  array.map { |element| element.reverse}.join(" ")
+  end
